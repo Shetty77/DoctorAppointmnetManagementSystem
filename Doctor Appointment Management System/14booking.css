@@ -1,0 +1,137 @@
+
+
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+* {box-sizing: border-box;}
+
+  .container {
+    margin-top: 3%;
+    margin-left: 46%;
+    position: absolute;
+    z-index: 10000;
+    width: 703px;
+    border-radius: 15px;
+    background-color: #c598bc00;
+    top: 2px;
+    display: grid;
+    grid-template-columns: [labels] auto [controls] 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em .5em;
+    background: #f5f5dc00;
+    padding: 1.2em;
+    width: 36em;
+  }
+h1{
+  color: white;
+  font-size: ;
+  font-style: inherit;
+}
+   .container > input, 
+  .container > select,
+  .container > textarea {
+     grid-column: controls;
+    grid-row: auto;
+    padding: .6em;
+    border: 0;
+  }
+
+   .container > fieldset,
+  .container > button {
+    grid-column: span 2;
+  }  
+  .container > button {
+    padding: 1em;
+    background: #61ab27cf;
+    border: 0;
+    color: white;
+    }
+  .container > textarea {
+    min-height: 3em;
+    }
+
+
+    input[type=text]{
+      width:94%;
+      padding: 11px;
+      margin: 8px 5px 35px 26px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border-radius:4px;
+    }
+
+    input[type=tel]{
+      width:94%;
+      padding: 11px;
+      margin: 8px 5px 35px 26px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border-radius:4px;
+    }
+
+    input[type=email]{
+      width:94%;
+      padding: 11px;
+      margin: 8px 5px 35px 26px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border-radius:4px;
+    }
+ 
+    img {
+  
+  
+  background-image: url("login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.bg { 
+    height: 50%; 
+}
+
+label{
+  color:black;
+  font-weight: bold;
+  }
+    select{
+    width:100%;
+    padding:10px;
+  }
+   fieldset{
+    margin-top:10px;
+  }
+    input[type="datetime-local"]{
+    width:85%;
+    margin:10px;
+   
+  }
+button[type="submit"] {
+    width: 94%;
+    padding: 11px;
+    margin: 14px 5px 35px 20px;
+    display: inline-block;
+    border: none;
+    background: #4584EE;
+    border-radius: 4px;
+    color: white;
+    font-size: inherit;
+}
+
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.head-container {
+  margin-top: 2px;
+  margin-left: 40px;
+}

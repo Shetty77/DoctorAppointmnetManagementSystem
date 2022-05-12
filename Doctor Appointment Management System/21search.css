@@ -1,0 +1,18 @@
+#mySearch {
+    width: 15%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    margin-left: 75%;
+    top: 0px;
+    position: absolute;
+    margin-top: 39px;
+}
+input[type="submit"] {
+    width: 5%;
+    padding: 6px;
+    border: 1px solid #0e0c4b;
+    margin-left: 90%;
+    top: 0px;
+    position: absolute;
+    margin-top: 39px;
+}

@@ -1,0 +1,62 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+h1{
+  color: white;
+  font-style: inherit;
+}
+p{
+  color: white;
+  font-style: inherit;
+}
+
+
+input[type=submit] {
+    background-color: #4584EE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+     margin-top: 5%;
+    margin-left: 40%;
+    position: absolute;
+    z-index: 10000;
+    width: 703px;
+    border-radius: 7px;
+    background-color: #c598bc00;
+    top: 2px;
+}
+
+img  {
+  
+  
+  background-image: url("login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.bg { 
+    height: 50%; 
+}
